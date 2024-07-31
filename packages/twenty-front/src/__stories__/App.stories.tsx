@@ -1,8 +1,8 @@
-import { HelmetProvider } from 'react-helmet-async';
 import { getOperationName } from '@apollo/client/utilities';
 import { jest } from '@storybook/jest';
 import { Meta, StoryObj } from '@storybook/react';
-import { graphql, HttpResponse } from 'msw';
+import { HttpResponse, graphql } from 'msw';
+import { HelmetProvider } from 'react-helmet-async';
 import { RecoilRoot } from 'recoil';
 import { IconsProvider } from 'twenty-ui';
 
